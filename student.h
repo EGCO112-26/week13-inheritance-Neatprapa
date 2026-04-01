@@ -21,7 +21,7 @@ private:
           double gpa; 
 	
 public:
-    student(long i, double g, string n); 
+    student(long =111, double=2.5, string="Moss"); 
     void display();
    
 };
@@ -38,7 +38,7 @@ public:
 
 student::student(long i, double g,string n):MU_person(i,n){ 
   gpa=g;
-  cout<<"MU person constructor "<<gpa<<endl;
+  cout<<"MU student constructor "<<gpa<<endl;
 }
 
 
