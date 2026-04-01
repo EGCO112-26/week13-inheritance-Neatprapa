@@ -2,6 +2,12 @@ class Thai_person{
 	private: 
 		long nat_id;
 	public: 
-		Thai_person(int=0);
+		Thai_person(int); //show nat_id
+		//Thai_person(int=0); //show nat_id
  };
 
+Thai_person::Thai_person(int nid){
+	nat_id=nid;
+	cout<<"Nat ID:"<<nat_id<<endl;
+
+}
