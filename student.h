@@ -38,7 +38,7 @@ public:
 
 student::student(long i, double g,string n):MU_person(i,n){ 
   gpa=g;
-  cout<<"MU student constructor "<<gpa<<endl;
+  cout<<"MU student constructor  "<<gpa<<endl;
 }
 
 
